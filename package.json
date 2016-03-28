@@ -1,0 +1,34 @@
+{
+  "name": "git-cloner",
+  "version": "1.0.0",
+  "description": "Clone multiple git repositories.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "bindy": "^1.0.1",
+    "git-source": "^1.1.0",
+    "same-time-limit": "^1.0.1",
+    "spawno": "^1.0.0",
+    "ul": "^5.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/git-cloner.git"
+  },
+  "keywords": [
+    "git",
+    "cloner"
+  ],
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/git-cloner/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/git-cloner#readme"
+}
