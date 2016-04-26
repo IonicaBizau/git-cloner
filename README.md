@@ -1,18 +1,20 @@
+
 # git-cloner [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/git-cloner.svg)](https://www.npmjs.com/package/git-cloner) [![Downloads](https://img.shields.io/npm/dt/git-cloner.svg)](https://www.npmjs.com/package/git-cloner) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Clone multiple git repositories.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save git-cloner
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
-"use strict";
-
 const gitCloner = require("git-cloner");
 
 gitCloner([
@@ -26,7 +28,8 @@ gitCloner([
 });
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `gitCloner(input, options, cb)`
 Clones the git repositories specified in the `input` parameter.
@@ -49,13 +52,18 @@ or objects in this format:
    cloning processes in the same time (default: `5`).
 - **Function** `cb`: The callback function.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
-## License
+
+ - [`git-module-installer`](https://github.com/IonicaBizau/git-module-installer#readme)—Clone git repositories and install their npm dependencies.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
