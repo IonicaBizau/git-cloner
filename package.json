@@ -1,6 +1,6 @@
 {
   "name": "git-cloner",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Clone multiple git repositories.",
   "main": "lib/index.js",
   "directories": {
@@ -39,6 +39,7 @@
     "src/",
     "resources/",
     "menu/",
+    "scripts/",
     "cli.js",
     "index.js"
   ]
