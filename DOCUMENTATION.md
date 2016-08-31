@@ -21,5 +21,6 @@ or objects in this format:
  - `done` (Function): A function to be called after each repo was cloned.
  - `parallelLimit` (Number): A number representing the max count of git
    cloning processes in the same time (default: `5`).
+ - `shallow` (Boolean): If `true`, a shallow clone will be created (i.e. `--depth=1`).
 - **Function** `cb`: The callback function.
 

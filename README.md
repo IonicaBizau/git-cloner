@@ -49,10 +49,10 @@ or objects in this format:
  - `urlType` (String): The git url type (default: `"ssh"`).
  - `showOutput` (Boolean): If `true`, the child process output streams will
    be piped in the main process.
- - `shallow` (Boolean): If `true`, a shallow clone will be created (i.e. `--depth=1`).
  - `done` (Function): A function to be called after each repo was cloned.
  - `parallelLimit` (Number): A number representing the max count of git
    cloning processes in the same time (default: `5`).
+ - `shallow` (Boolean): If `true`, a shallow clone will be created (i.e. `--depth=1`).
 - **Function** `cb`: The callback function.
 
 
