@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Clones the git repositories specified in the `input` parameter.
 
 #### Params
+
 - **Array** `input`: An array of git sources: git urls (it also supports owner/repo notation, parsed by
 [`git-source`](https://github.com/IonicaBizau/git-source)),
 or objects in this format:
